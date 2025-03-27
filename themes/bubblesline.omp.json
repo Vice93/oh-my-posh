@@ -5,12 +5,13 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#29315A",
-          "foreground": "#E64747",
-          "leading_diamond": "\ue0b6",
-          "style": "diamond",
-          "template": "{{ .FormattedMs }}",
-          "trailing_diamond": "\ue0b4 ",
+          "background": "#83769c",
+          "foreground": "#ffffff",
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": " \ueba2 {{ .FormattedMs }} ",
           "type": "executiontime"
         },
         {
