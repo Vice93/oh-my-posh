@@ -5,6 +5,18 @@
       "alignment": "right",
       "segments": [
         {
+          "background": "#83769c",
+          "foreground": "#ffffff",
+          "properties": {
+            "style": "roundrock",
+            "threshold": 0
+          },
+          "style": "diamond",
+          "template": " \ueba2 {{ .FormattedMs }}\u2800",
+          "trailing_diamond": "\ue0b4",
+          "type": "executiontime"
+        },
+        {
           "background": "#424242",
           "foreground": "#3EC669",
           "leading_diamond": "\ue0b6",
@@ -130,7 +142,7 @@
           "foreground": "#9B6BDF",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "{{ .UserName }} \u276f",
+          "template": "\u276f",
           "trailing_diamond": "\ue0b4 ",
           "type": "session"
         }
