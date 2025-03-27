@@ -11,7 +11,7 @@
           "style": "diamond",
           "template": "{{ .FormattedMs }}",
           "trailing_diamond": "\ue0b4 ",
-          "type": "session"
+          "type": "executiontime"
         },
         {
           "background": "#424242",
